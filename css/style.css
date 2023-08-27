@@ -1,0 +1,84 @@
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+
+  }
+.container{
+	padding: 10;
+	margin: 5;
+	
+}
+
+.header {
+	text-align: center;
+	box-sizing:border-box ;
+	padding-block: 50px;
+}
+.header p {
+	font-size: 30px;
+	color: rgb(34, 130, 59);
+	font-family: Georgia, Times, 'Times New Roman', serif;
+
+}
+.header h1 {
+	font-size: 50px;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+.header1 {
+	text-decoration-color: #5c8a8a;
+	background-size:50% ;
+	text-align:center;
+	padding-block:40px ;
+	color:green;
+	
+}
+.row{
+	text-align: center;
+	text-justify: initial;
+	color: rgb(187, 39, 39);
+}
+.row img{
+	height: 20rem;
+	padding: 0;
+	margin: 0;
+    width: 30rem;
+	margin-bottom: 1rem;
+	margin-top: 3rem;
+	 
+}
+
+.row1 img {
+	height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+	margin-top: 3rem;	
+}
+.row1{
+	text-align: center;
+	text-decoration-color:#5c8a8a ;
+	color:rgb(50, 220, 217);
+}
+
+button{
+	background-color: rgb(39, 41, 104);
+
+}
+
+.row img:hover {
+    transform: scale(1.15); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.row1 img:hover {
+    transform: scale(1.15); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+button:hover{
+	
+		transform: scale(1.05); 
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+	
+}
